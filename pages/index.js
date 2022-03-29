@@ -10,37 +10,37 @@ export default function Home() {
         <link rel='icon' href='/favicon.png' />
       </Head>
       <div className='mx-auto lg:2-3/5 lg:flex lg:flex-row lg:h-auto'>
-        <Image
+        <img
           src='/images/drawers.jpg'
           alt='table'
-          className='rounded-tr-md  rounded-tl-md h-48 w-full lg:h-auto lg:w-2/5 lg:rounded-bl-md lg:rounded-tr-none'
+          className='w-full h-48 rounded-tr-md rounded-tl-md lg:h-auto lg:w-2/5 lg:rounded-bl-md lg:rounded-tr-none'
         />
 
-        <div className='bg-white p-8 rounded-bl-md rounded-br-md lg:rounded-bl-none lg:rounded-tr-md'>
-          <h2 className='text-gray-700 font-semibold'>
+        <div className='p-8 bg-white rounded-bl-md rounded-br-md lg:rounded-bl-none lg:rounded-tr-md'>
+          <h2 className='font-semibold text-gray-700'>
             Shift overall look and fell by adding these wonderful touches to
             furniture in your home
           </h2>
-          <p className='text-sm text-gray-600 mt-4'>
+          <p className='mt-4 text-sm text-gray-600'>
             Ever been in a room and felt like something was missing? Perhaps it
             felt slightly bare and uninviting. I&apos;ve got some simple tips to
             help you make any room feel complete.
           </p>
           <div className='flex items-center mt-8'>
             <div className='flex items-center'>
-              <Image
+              <img
                 src='/images/avatar-michelle.jpg'
                 alt='person'
-                className='h-10 w-10 rounded-full '
+                className='w-10 h-10 rounded-full '
               />
               <div className='ml-4'>
-                <p className='text-gray-800 text-sm font-semibold'>
+                <p className='text-sm font-semibold text-gray-800'>
                   Michelle Appleton
                 </p>
-                <p className='text-gray-600 text-sm'>28 June 2020</p>
+                <p className='text-sm text-gray-600'>28 June 2020</p>
               </div>
             </div>
-            <div className='w-8 h-8 ml-auto bg-gray-200 rounded-full flex items-center justify-center'>
+            <div className='flex items-center justify-center w-8 h-8 ml-auto bg-gray-200 rounded-full'>
               <svg xmlns='http://www.w3.org/2000/svg' width='15' height='13'>
                 <path
                   fill='#6E8098'
